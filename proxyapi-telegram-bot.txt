@@ -1,0 +1,10 @@
+proxyapi-telegram-bot/
+├── .env.example             # Пример файла с ключами (без реального токена!)
+├── .gitignore               # Игнорируемые файлы (чтобы ключи не утекли в сеть)
+├── README.md                # Описание проекта
+├── requirements.txt         # Список зависимостей
+├── bot/
+│   ├── __init__.py
+│   ├── telegram_bot.py      # Наш основной рабочий код
+├── docs/
+│   └── architecture.md      # Описание логики работы с ProxyAPI
